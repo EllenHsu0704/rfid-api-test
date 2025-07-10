@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SetGetSwitchMode">
+
+    <TextView
+        android:id="@+id/tv_e310"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This function is not supported by the E310."
+        android:layout_marginTop="16dp" />
+
+    <!-- 顯示結果的TextView -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Status: Unknown"
+        android:background="@drawable/textview_border"
+        android:padding="20dp"
+        android:scrollbars="vertical"
+        android:maxLines="10"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:lineSpacingExtra="8dp"
+        android:textSize="10pt"/>
+
+    <!-- 設置模式的按鈕 -->
+    <Button
+        android:id="@+id/btn_set_rfid_only"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set RFID Only Mode"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_set_pistol_only"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Pistol Only Mode"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_set_rfid_and_pistol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set RFID and Pistol Mode"
+        android:textAllCaps="false"/>
+
+    <!-- 獲取模式的按鈕 -->
+    <Button
+        android:id="@+id/btn_get_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Current Mode"
+        android:textAllCaps="false"/>
+
+</LinearLayout >

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/vertical_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+
+            <Button
+                android:id="@+id/bt01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="1.GetVersion"
+                android:textAllCaps="false"/>
+
+
+            <Button
+                android:id="@+id/bt02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="2.SetGetSwitchMode"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="3.SetGetRFIDSwitchStatus"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="4.ScanTest"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="5.GetContinuousInventoryTime"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="6.Read/Writer RFIDTagMassive"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="7.RFIDDirect InventoryRound"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="8.LongEPCWriteTest"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="9.WriteEPCByTID"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="10.Read User/Reserved BankByTID"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="Button 11"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="Button 12"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="Button 13"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="Button 14"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/bt015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="8dp"
+                android:text="Button 15"
+                android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

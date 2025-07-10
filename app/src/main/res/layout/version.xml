@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GetVersion">
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="GetVersion"
+        android:background="@drawable/textview_border"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        android:maxLines="10"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:lineSpacingExtra="8dp"
+        android:textSize="10pt"/>
+
+
+    <Button
+        android:id="@+id/bt01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="8dp"
+        android:text="GetServiceVersion"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bt02"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="8dp"
+        android:text="GetAPIVersion"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bt03"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="8dp"
+        android:text="ShutdownDevice"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bt04"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="8dp"
+        android:text="GetBatteryLifePercent"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ReadUserReservedBankByTID">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TID Label and Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TID：" />
+
+        <EditText
+            android:id="@+id/etTid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter TID"
+            android:background="@android:drawable/edit_text"
+            android:inputType="text" />
+
+        <!-- Read TID Button -->
+        <Button
+            android:id="@+id/btnReadTid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="Read TID"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false"/>
+
+        <!-- Read Length Label and Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="read length"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etReadLengthUser"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="4" />
+
+        <!-- Read User Bank Button -->
+        <Button
+            android:id="@+id/btnReadUserBank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="Read User Bank"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false"/>
+
+        <!-- Start Index and Read Length for Reserved Bank -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="start index" />
+
+                <EditText
+                    android:id="@+id/etStartIndexReserved"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:text="4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="read length" />
+
+                <EditText
+                    android:id="@+id/etReadLengthReserved"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:text="4" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Read Reserved Bank Button -->
+        <Button
+            android:id="@+id/btnReadReservedBank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="Read Reserved Bank"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false"/>
+
+        <!-- Output Display -->
+        <TextView
+            android:id="@+id/tvOutput"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:scrollbars="vertical"
+            android:padding="8dp"
+            android:text=""
+            android:textIsSelectable="true" />
+
+    </LinearLayout>
+
+</ScrollView>

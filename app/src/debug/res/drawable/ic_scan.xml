@@ -1,0 +1,14 @@
+<!-- res/drawable/ic_scan.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12,3C6.95,3 3.15,4.85 0,7.23L12,22 24,7.25C20.85,4.87 17.05,3 12,3zM2.92,7.65C5.8,5.85 8.74,5 12,5c3.25,0 6.18,0.85 9.08,2.67L12,18.83 2.92,7.65z"/>
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12,8c1.1,0 2,0.9 2,2s-0.9,2 -2,2 -2,-0.9 -2,-2 0.9,-2 2,-2m0,-2c-2.21,0 -4,1.79 -4,4s1.79,4 4,4 4,-1.79 4,-4 -1.79,-4 -4,-4z"/>
+</vector>

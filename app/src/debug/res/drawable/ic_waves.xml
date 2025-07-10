@@ -1,0 +1,22 @@
+<!-- res/drawable/ic_waves.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="?attr/colorControlNormal"
+        android:strokeWidth="1"
+        android:pathData="M5,12 C5,12 8,8 12,8 C16,8 19,12 19,12"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="?attr/colorControlNormal"
+        android:strokeWidth="1"
+        android:pathData="M3,12 C3,12 7,6 12,6 C17,6 21,12 21,12"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="?attr/colorControlNormal"
+        android:strokeWidth="1"
+        android:pathData="M7,12 C7,12 9,10 12,10 C15,10 17,12 17,12"/>
+</vector>

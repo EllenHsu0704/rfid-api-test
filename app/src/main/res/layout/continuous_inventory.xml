@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ContinuousInventory">
+
+    <TextView
+        android:id="@+id/tv_e310"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This function is not supported by the E310."
+         />
+
+
+    <!-- 輸入連續盤點時間 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inventory Time (0-1000 ms):"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_inventory_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter inventory time" />
+
+    <!-- 輸入延遲時間 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delay Time (0-1000 ms):"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/et_delay_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter delay time" />
+
+    <!-- 顯示設定結果 -->
+    <TextView
+        android:id="@+id/tv_setting_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting Result: "
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- 顯示讀取的Tag內容（滾動式） -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="16dp"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/tv_tag_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tag Content: "
+            android:textSize="14sp"
+            android:background="@android:color/darker_gray"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:maxLines="14" />
+    </ScrollView>
+
+    <!-- 開始和結束按鈕 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+        android:textAllCaps="false"
+        android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+        android:textAllCaps="false"
+        android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_get_inventory_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Continuous Inventory Time"
+        android:layout_marginTop="8dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
